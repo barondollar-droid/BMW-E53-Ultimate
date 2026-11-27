@@ -1,11 +1,11 @@
-BMW E53 Ultimate — cloud build project
+BMW E53 Ultimate — проект Android-приложения
 
-1. Upload all files and folders from this archive into the root of your GitHub repository.
-2. Make sure .github/workflows/build-apk.yml is included.
-3. Commit the files to the main branch.
-4. Open the Actions tab in GitHub and wait for "Build BMW E53 Ultimate APK" to finish.
-5. Open the successful workflow run and download the artifact named BMW-E53-Ultimate-APK.
+Сборка APK через GitHub Actions:
+1. Загрузите содержимое архива в корень репозитория GitHub.
+2. Сохраните файлы в ветку main.
+3. Откройте вкладку Actions и запустите workflow "Build BMW E53 Ultimate APK" (или дождитесь автоматического запуска после push).
+4. После успешной сборки скачайте артефакт BMW-E53-Ultimate-APK.
 
-Important:
-This is an initial visual demo. Speed, RPM, coolant, doors, windows and controls are placeholders.
-It does NOT connect to the vehicle CAN bus and does NOT send commands to the vehicle.
+В текущей версии обновлён демонстрационный интерфейс: круглые шкалы скорости до 280 км/ч и оборотов до 8000 об/мин, карточки температуры АКПП 5HP24, охлаждающей жидкости и напряжения, выбор одного из четырёх цветов оформления.
+
+ВАЖНО: показания пока демонстрационные (нулевые/прочерки). Подключение к CAN/OBD, чтение реальных параметров, диагностика и отправка команд автомобилю ещё не реализованы. Не используйте приложение как замену штатным приборам.
